@@ -34,6 +34,26 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
+  mygadgetrepairs_client:
+    git:
+      url: https://github.com/daslaller/mygadgetrepairs_client.git
+      ref: main
+  telavox_client:
+    git:
+      url: https://github.com/daslaller/telavox_client.git
+      ref: main
+  customized_poll_service:
+    git:
+      url: https://github.com/daslaller/customized_poll_service.git
+      ref: main
+  synchronized_tracked_time_list:
+    git:
+      url: https://github.com/daslaller/Synchronized-Tracked-Timed-Collection.git
+      ref: main
+  user_manager:
+    git:
+      url: https://github.com/daslaller/user_manager_widget.git
+      ref: main
 
 dev_dependencies:
   flutter_test:
