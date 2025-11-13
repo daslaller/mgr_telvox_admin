@@ -46,14 +46,22 @@ dependencies:
     git:
       url: https://github.com/daslaller/customized_poll_service.git
       ref: main
-  synchronized_tracked_time_list:
-    git:
-      url: https://github.com/daslaller/Synchronized-Tracked-Timed-Collection.git
-      ref: main
   user_manager:
     git:
       url: https://github.com/daslaller/user_manager_widget.git
       ref: main
+  firebase_core: ^4.2.1
+  synchronized_tracked_time_list:
+    git:
+      url: https://github.com/daslaller/Synchronized-Tracked-Timed-Collection.git
+      ref: main
+  cached_network_image: ^3.4.1
+  pbx_gui:
+    git:
+      url: https://github.com/daslaller/loginAppFirestoreGui.git
+      ref: main
+  google_sign_in: ^6.3.0
+  google_sign_in_dartio: ^0.3.0
 
 dev_dependencies:
   flutter_test:
@@ -76,6 +84,9 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
+dependency_overrides:
+  cloud_firestore: any
+  firebase_core: any
 
   # To add assets to your application, add an assets section, like this:
   # assets:
