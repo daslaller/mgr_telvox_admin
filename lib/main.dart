@@ -3,13 +3,13 @@ import 'dart:ui';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:google_sign_in_dartio/google_sign_in_dartio.dart';
-import 'package:cloud_firestore/cloud_firestore.dart' as cf;
 import 'package:pbx_gui/create_account_widget.dart';
 import 'package:pbx_gui/forgot_password_widget.dart';
 import 'package:pbx_gui/services/auth_service.dart';
 
-import 'Widgets/login.dart';
+import 'Widgets/login_widget.dart';
 import 'firebase_options.dart';
+import 'Widgets/config_widget.dart';
 
 // Example of how to use the LoginPageWidget
 void main() async {
@@ -37,7 +37,7 @@ class MyApp extends StatelessWidget {
         title: 'MobilX PBX Manager',
         logoUrl:
             'https://assets.softr-files.com/applications/6295c80c-d68e-4af5-8b8c-3f3b22af7816/assets/4f0c29eb-89b7-4783-95ba-c06286d03481.png',
-        onLoginSuccess: null,
+        onLoginSuccess: const ConfigAdminHomePage(),
       ),
     );
   }

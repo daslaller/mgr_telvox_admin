@@ -1,0 +1,29 @@
+{
+	"folders": [
+		{
+			"name": "config_widget",
+			"path": "resources/config_widget"
+		},
+		{
+			"name": "user_manager_widget",
+			"path": "resources/user_manager_widget"
+		},
+		{
+			"name": "loginAppFirestoreGui",
+			"path": "resources/loginAppFirestoreGui"
+		},
+		{
+			"name": "mygadgetrepairs_client",
+			"path": "resources/mygadgetrepairs_client"
+		},
+		{
+			"name": "telavox_client",
+			"path": "resources/telavox_client"
+		},
+		{
+			"name": "Synchronized-Tracked-Timed-Collection",
+			"path": "resources/Synchronized-Tracked-Timed-Collection"
+		}
+	],
+	"settings": {}
+}

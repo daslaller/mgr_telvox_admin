@@ -1,13 +1,9 @@
 import 'dart:ui';
 
 import 'package:cached_network_image/cached_network_image.dart';
-import 'package:firebase_auth/firebase_auth.dart' as auth;
 import 'package:flutter/material.dart';
-import 'package:google_sign_in/google_sign_in.dart';
-import 'package:google_sign_in_dartio/google_sign_in_dartio.dart';
 import 'package:pbx_gui/create_account_widget.dart';
 import 'package:pbx_gui/forgot_password_widget.dart';
-import 'package:pbx_gui/models/user_models.dart';
 import 'package:pbx_gui/services/auth_service.dart';
 
 // Model
