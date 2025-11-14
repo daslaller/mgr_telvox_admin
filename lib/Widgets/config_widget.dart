@@ -6,7 +6,8 @@ import 'package:config_widget/ConfigWidget.dart';
 
 class ConfigAdminHomePage extends StatelessWidget {
   const ConfigAdminHomePage({super.key});
-
+  static String routeName = 'configPage';
+  static String routePath = '/configPage';
   @override
   Widget build(BuildContext context) {
     final colorScheme = Theme.of(context).colorScheme;
